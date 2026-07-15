@@ -115,10 +115,8 @@ export default defineConfig(({ command }) => ({
 }));
 Manual Deployment
 If you use the gh-pages branch deployment method:
-
-Bash
-npm run build
-npx gh-pages -d dist
+  npm run build
+  npx gh-pages -d dist
 Automated GitHub Actions Deployment
 If deploying via GitHub Actions, ensure your repository Settings ➔ Pages is set to deploy from GitHub Actions, and include the standard Vite static workflow pointing to your dist artifact.
 
